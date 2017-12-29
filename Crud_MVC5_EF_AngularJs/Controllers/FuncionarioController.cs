@@ -9,7 +9,7 @@ namespace Crud_MVC5_EF_AngularJs.Controllers
 {
     public class FuncionarioController : Controller
     {
-        // GET: Funcionario
+        // GET: Funcionario/GetFuncionario
         public JsonResult GetFuncionario()
         {
             using (var db = new FuncionariosEntities())
